@@ -1,0 +1,223 @@
+body,
+html {
+  width: 100%;
+}
+#lm {
+  width: 100%;
+  height: 100%;
+  background-color: #c3b5b563 63;
+}
+#lm .header {
+  padding: 0 0.3125rem;
+  height: 0.71875rem;
+  line-height: 0.71875rem;
+  text-align: center;
+}
+#lm .header span {
+  color: #d3079e;
+  float: left;
+  height: 0.71875rem;
+}
+#lm .header h2 {
+  display: inline-block;
+  height: 0.71875rem;
+}
+#lm .header .person {
+  width: 0.390625rem;
+  margin-top: 0.15625rem;
+  float: right;
+}
+#lm .footer {
+  height: 0.53125rem;
+  background-color: #d3079e;
+  padding: 0.15625rem;
+  line-height: 0.53125rem;
+  margin-top: 0.234375rem;
+}
+#lm .footer ul {
+  width: 100%;
+  height: 100%;
+  padding: 0.125rem 0.15625rerm;
+}
+#lm .footer ul li {
+  float: left;
+}
+#lm .footer ul li:first-child {
+  width: 1.40625rem;
+}
+#lm .footer ul .top {
+  float: right;
+}
+#lm .footer a {
+  color: #fff;
+  display: inline-block;
+}
+/* -----------顶部开始------- */
+/* -----------顶部结束------- */
+/* -----------轮播图开始------- */
+#slider {
+  width: 100%;
+  height: 3.046875rem;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+#slider .swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+#slider li {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#slider li a {
+  display: block;
+  width: 100%;
+}
+#slider li img {
+  height: 3.125rem;
+}
+/* -----------轮播图结束------- */
+/* -----------九宫格开始------- */
+.nav {
+  width: 100%;
+  height: 3.59375rem;
+  padding: 0.15625rem 0.078125rem;
+}
+.nav ul {
+  width: 100%;
+  font-size: 0;
+}
+.nav ul li {
+  display: inline-block;
+  margin-right: 0.109375rem;
+}
+.nav ul li img {
+  width: 3.21875rem;
+}
+.nav ul li:nth-last-child(-6 + n ) {
+  margin-top: 0.15625rem;
+}
+/* -----------九宫格结束------- */
+/* -----------menu开始------- */
+.menu {
+  width: 100%;
+  height: 3.546875rem;
+  font-size: 0;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.menu li {
+  display: inline-block;
+  width: 2.46875rem;
+  height: 1.765625rem;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.menu li:nth-child(4n) {
+  border-right: none;
+}
+.menu li img {
+  width: 100%;
+  height: 100%;
+}
+/* -----------menu结束------- */
+/* -----------亲子旅游开始------- */
+.children {
+  width: 100%;
+  height: 3.546875rem;
+  margin: 0.3125rem 0;
+  font-size: 0;
+}
+.children .l {
+  width: 4.96875rem;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.children .l img {
+  width: 100%;
+}
+.children .r {
+  display: inline-block;
+  width: 5rem;
+}
+.children .r img {
+  width: 100%;
+  height: 1.765625rem;
+  border-bottom: 1px solid #ccc;
+}
+/* -----------亲子旅游结束------- */
+/* -----------热门活动开始------- */
+.hot {
+  width: 100%;
+  height: 8.125rem;
+}
+.hot h1 {
+  font-size: 0.34375rem;
+  height: 0.5625rem;
+  padding-left: 0.15625rem;
+  background-color: #cccccc4d;
+  border-bottom: 1px solid #ccc;
+}
+.hot ul li {
+  width: 100%;
+  height: 1.875rem;
+  border-bottom: 1px solid #ccc;
+}
+.hot ul li img {
+  width: 100%;
+}
+/* -----------热门活动结束------- */
+/* -----------周末长假开始------- */
+.dujia {
+  width: 100%;
+  margin-top: 0.15625rem;
+}
+.dujia .tab {
+  width: 100%;
+  height: 0.703125rem;
+  background-color: #cccccc4d;
+}
+.dujia .tab li {
+  height: 0.703125rem;
+  line-height: 0.703125rem;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+.dujia .content {
+  height: 4.9375rem;
+  margin-bottom: 0.3125rem;
+}
+.dujia .content .top {
+  width: 100%;
+  height: 4.109375rem;
+}
+.dujia .content .top img {
+  width: 100%;
+}
+.dujia .content .bottom {
+  height: 0.859375rem;
+  padding-top: 0.15625rem;
+  background-color: #fff;
+}
+.dujia .content .bottom p {
+  line-height: 0.3125rem;
+}
+/* -----------周末长假结束------- */
+/* -----------查看更多------- */
+.more {
+  width: 100%;
+  height: 0.5rem;
+  margin-top: 0.234375rem;
+  text-align: center;
+  background-color: #fff;
+}
+.more:after {
+  content: '^';
+  width: 0.3125rem;
+}
+/* -----------底部导航------- */

@@ -1,0 +1,241 @@
+@import './setting.less';
+body, html {
+  width: 100%;
+}
+#lm {
+  // width: 640rem/64;
+  width: 100%;
+  height: 100%;
+  background-color: @bodyBgColor;
+  .header {
+    padding: 0 20rem/64;
+    // width: 640rem/64;
+    height: 46rem/64;
+    line-height: 46rem/64;
+    text-align: center;
+    span {
+      color:@BarColor;
+      float: left;
+      height: 46rem/64;
+    }
+    h2 {
+      display: inline-block;
+      height: 46rem/64;
+    }
+    .person {
+      width: 25rem/64;
+      margin-top: 10rem/64;
+      float: right;
+    }
+  }
+  .footer {
+    height: 34rem/64;
+    background-color: @footBgColor; 
+    padding: 10rem/64;
+    line-height: 34rem/64;
+    margin-top: 15rem/64;
+    ul {
+      width: 100%;
+      height: 100%;
+      padding: 8rem/64 10rerm/64;
+      li {
+        float: left;
+        &:first-child{
+          width:90rem/64;
+        }
+      }
+      .top {
+        float: right;
+      }
+    }
+    a {
+      color: @white;
+      display: inline-block;
+    }
+  }
+}
+/* -----------顶部开始------- */
+/* -----------顶部结束------- */
+/* -----------轮播图开始------- */
+#slider {
+  width: 100%;
+  height: 195rem/64;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  .swipe-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+
+  li {
+    float: left;
+    width: 100%;
+    position: relative;
+    a {
+      display: block;
+      width: 100%;
+    }
+    img {
+      height: 200rem/64;
+    }
+  }
+ 
+}
+/* -----------轮播图结束------- */
+/* -----------九宫格开始------- */
+.nav {
+  width: 100%;
+  height: 230rem/64;
+  padding: 10rem/64 5rem/64;
+  ul {
+    width: 100%;
+    font-size: 0;
+    li {
+      display: inline-block;
+      margin-right: 7rem/64;
+      img {
+        width: 206rem/64;
+
+      }
+      &:nth-last-child(-6 + n ) {
+        margin-top:10rem/64;
+      }
+    }
+  }
+}
+/* -----------九宫格结束------- */
+/* -----------menu开始------- */
+.menu {
+  width: 100%;
+  height: 227rem/64;
+  font-size: 0;
+  overflow: hidden;
+   border-top:1px solid #ccc;
+   border-bottom:1px solid #ccc;
+  li{
+    display: inline-block;
+    width: 158rem/64;
+    height: 113rem/64;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    &:nth-child(4n){
+      border-right: none;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+/* -----------menu结束------- */
+/* -----------亲子旅游开始------- */
+.children {
+  width: 100%;
+  height: 227rem/64;
+  margin: 20rem/64 0;
+  font-size:0;
+  .l {
+    width: 318rem/64;
+    display: inline-block;
+    border-right:1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+    img {
+      width: 100%;
+      
+    }
+  }
+  .r {
+    display: inline-block;
+    width: 320rem/64;
+    img {
+      width: 100%;
+      height: 113rem/64;
+      border-bottom: 1px solid #ccc;
+      
+        
+    }
+  }
+  
+}
+/* -----------亲子旅游结束------- */
+/* -----------热门活动开始------- */
+.hot {
+  width: 100%;
+  height: 520rem/64;
+  h1 {
+    font-size: 22rem/64;
+    height:36rem/64;
+    padding-left:10rem/64;
+    background-color: #cccccc4d;
+    border-bottom: 1px solid #ccc;
+  }
+  ul li {
+    width: 100%;
+    height:120rem/64;
+    border-bottom: 1px solid #ccc;
+    img {
+      width: 100%;
+    }
+  }
+}
+/* -----------热门活动结束------- */
+
+/* -----------周末长假开始------- */
+.dujia {
+  width: 100%;
+  // height: 362rem/64;
+  margin-top: 10rem/64;
+  .tab {
+    width: 100%;
+    height: 45rem/64;
+   
+    background-color: #cccccc4d;
+     
+    li {
+     
+      height:45rem/64;
+      line-height: 45rem/64;
+      display: inline-block;
+      width:49%;
+      text-align: center;
+      
+    }
+  }
+  .content {
+    height: 316rem/64;
+    margin-bottom: 20rem/64;
+    .top {
+      width:100%;
+      height:263rem/64;
+      img {
+        width: 100%;
+      }
+    }
+    .bottom {
+      height: 55rem/64;
+      padding-top: 10rem/64;
+      background-color: @white;
+      p {
+        line-height: 20rem/64;
+      }
+    }
+  }
+}
+/* -----------周末长假结束------- */
+/* -----------查看更多------- */
+.more {
+  width:100%;
+  height: 32rem/64;
+  margin-top: 15rem/64;
+  text-align: center;
+  background-color: #fff;
+  &:after{
+    content:'^';
+    width: 20rem/64;
+  }
+}
+/* -----------底部导航------- */
+ 
+
+
